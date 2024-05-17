@@ -24,7 +24,7 @@ try:
     cursor = conn.cursor()
 
     # Define a consulta SQL
-    query = "SELECT * FROM public.contacts"
+    query = "SELECT * FROM public.accounts_dp"
 
     # Executa a consulta
     cursor.execute(query)
